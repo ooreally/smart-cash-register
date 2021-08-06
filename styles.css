@@ -145,7 +145,7 @@ caption{
 
 @media screen and (max-width: 500px) {
     .main_container{
-        /* margin-left: 0.5rem; */
+        margin-left: 0.5rem;
         max-width:40rem;
     }
     
