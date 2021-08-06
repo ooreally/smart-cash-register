@@ -101,3 +101,43 @@ td{
 caption{
     margin:0rem 1rem 1rem;
   }
+
+.list-non-bullet {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer {
+    position: absolute;
+    color: black;
+    bottom:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem 1rem ;
+    text-align: center;
+    margin-top:auto;
+    margin-bottom: 2rem;
+}
+
+.footer .link {
+    text-decoration:none;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    align-items:center;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.social {
+    padding : 0.35rem 0.35rem;
+}
