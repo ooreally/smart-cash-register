@@ -113,7 +113,7 @@ caption{
 }
 
 .footer {
-    position: fixed;
+    position: absolute;
     color: black;
     bottom:0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -133,7 +133,6 @@ caption{
     font-size: large;
     text-align: center;
     align-items:center;
-    z-index:-1;
 }
 
 .footer ul {
@@ -142,4 +141,12 @@ caption{
 
 .social {
     padding : 0.35rem 0.35rem;
+}
+
+@media screen and (max-width: 500px) {
+    .main_container{
+        /* margin-left: 0.5rem; */
+        max-width:40rem;
+    }
+    
 }
