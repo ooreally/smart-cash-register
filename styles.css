@@ -133,7 +133,6 @@ caption{
     font-size: large;
     text-align: center;
     align-items:center;
-    position: fixed;
     z-index:-1;
 }
 
