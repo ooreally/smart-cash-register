@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Cashier</title>
+    <link href="styles.css" rel="stylesheet" type="text/css"></link>
+</head>
+<body>
+    <div class="main_container">
+    
+        <h1 class="heading">Smart Cash Register</h1>
+        <p >This app gives you the minimum number of notes you need to return when you enter bill amount and the cash given. </p>
+        <div>
+        <label for="bill_amount">Bill Amount:&nbsp;</label>
+        <input  id="bill_amount" type="number"  min="0" placeholder="Bill Amount"></input>
+        <br>
+        <button id="next_btn" >Next</button>
+        </div>
+        <div class="cashArea">
+        <label for="cash_given">Cash Given:&nbsp;&nbsp;</label>
+        <input  id="cash_given" type="number"  min="0" placeholder="Cash Given"></input>
+        <br>
+        <button id="check_btn">Check</button>
+        </div>
+        
+        <br>
+        <div class="changeArea">
+        <table id="change_table">
+          <caption>Change Returned:</caption>
+          
+          <tr>
+            <th>Number Of Notes</th>
+            <td class="noOfNotes"></td>  
+            <td class="noOfNotes"></td>  
+            <td class="noOfNotes"></td>  
+            <td class="noOfNotes"></td>  
+            <td class="noOfNotes"></td>  
+            <td class="noOfNotes"></td>  
+            <td class="noOfNotes"></td>
+            <td class="noOfNotes"></td>  
+            <td class="noOfNotes"></td>  
+          </tr>  
+          <tr>
+            <th>Notes</th>
+            <td>2000</td>  
+            <td>500</td>
+            <td>200</td> 
+            <td>100</td> 
+            <td>50</td> 
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td> 
+          </tr>  
+          
+        </table>
+        </div>
+        <div class="errorMsg"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
