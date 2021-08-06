@@ -120,7 +120,8 @@ caption{
     padding: 1rem 1rem ;
     text-align: center;
     margin-top:auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    position:fixed;
 }
 
 .footer .link {
