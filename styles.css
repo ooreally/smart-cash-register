@@ -121,7 +121,7 @@ caption{
     text-align: center;
     margin-top:auto;
     margin-bottom: 1rem;
-    /* z-index:0; */
+    z-index:-1;
 }
 
 .footer .link {
@@ -143,7 +143,7 @@ caption{
     padding : 0.35rem 0.35rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .main_container{
         /* margin-left: 1rem; */
         max-width:20rem;
