@@ -113,7 +113,7 @@ caption{
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     color: black;
     bottom:0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -121,7 +121,7 @@ caption{
     text-align: center;
     margin-top:auto;
     margin-bottom: 1rem;
-    z-index:-1;
+    /* z-index:0; */
 }
 
 .footer .link {
@@ -143,10 +143,15 @@ caption{
     padding : 0.35rem 0.35rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .main_container{
-        margin-left: 0.5rem;
-        max-width:40rem;
+        /* margin-left: 1rem; */
+        max-width:20rem;
     }
-    
+    table{
+        font-size: 0.9rem;
+    }
+    caption{
+        font-size: 1.3rem;
+    }
 }
