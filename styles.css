@@ -121,6 +121,7 @@ caption{
     text-align: center;
     margin-top:auto;
     margin-bottom: 1rem;
+    z-index:-1;
 }
 
 .footer .link {
