@@ -113,7 +113,7 @@ caption{
 }
 
 .footer {
-    position: fixed;
+    position:fixed;
     color: black;
     bottom:0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -153,5 +153,8 @@ caption{
     }
     caption{
         font-size: 1.3rem;
+    }
+    .footer{
+        position:relative;
     }
 }
