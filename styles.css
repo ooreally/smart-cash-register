@@ -133,6 +133,7 @@ caption{
     font-size: large;
     text-align: center;
     align-items:center;
+    z-index:-1;
 }
 
 .footer ul {
