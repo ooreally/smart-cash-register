@@ -1,0 +1,103 @@
+:root{
+    --primary-bg-color: #3d9ebb;
+    --primary-text-color:#52cbf0;
+    --secondary-bg-color: #074153;
+    --off-white: rgb(122, 116, 116);
+    --error: #f7c028;
+}
+
+*{
+    align-items: center;
+}
+body{
+    background-color: var(--primary-bg-color);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.main_container{
+    background-color: var(--secondary-bg-color);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    max-width: 50rem;
+}
+
+
+.heading{
+    color: var(--primary-text-color);
+}
+
+p{
+    font-size: 1.2rem;
+}
+label{
+    font-size:1.4rem;
+    font-weight:700;
+    color: var(--primary-text-color);
+}
+input{
+    width: 60%;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 10px;
+    color: var(--off-white);
+    margin-bottom: 1rem;
+}
+
+button{
+    border: none;
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: var(--primary-bg-color);
+    margin-bottom: 1rem;
+    align-self:left;
+}
+
+.errorMsg{
+    display: none;
+    font-size:1.4rem;
+    color: var(--error);
+}
+
+.cashArea{
+  display:none;
+}
+
+.changeArea{
+  display: none;
+}
+table{
+  margin: 1rem 0rem;
+  font-size: 1.3rem;
+  border: 2px solid var(--primary-bg-color);
+}
+th{
+    /* font-size: 1.1rem; */
+    padding:0.5rem;
+}
+tr{
+  align-items: center;
+  height: 2.5rem;
+  background-color:var(--primary-bg-color);
+}
+td{
+    
+  width: 1.2rem;
+  padding:0.2rem;
+  text-align:center;
+}
+caption{
+    margin:0rem 1rem 1rem;
+  }
