@@ -7,7 +7,7 @@ const checkBtn = document.querySelector("#check_btn");
 const changeDiv = document.querySelector(".changeArea");
 const numOfNotes = document.querySelectorAll(".noOfNotes");
 const notesArr = [2000,500,200,100,50,20,10,5,1];
-
+const cashReturned = document.querySelector("#change_returned")
 const showErrorMessage = ( Errmessage ) => {
 
     error.innerText = Errmessage;
@@ -58,6 +58,7 @@ checkBtn.addEventListener('click' , () => {
        if(cash>bill)
        {
          changeDiv.style.display="block";
+         cashReturned.innerText=cash-bill;
           calcNoOfNotes(cash,bill);
        }
        else if (cash === bill)
